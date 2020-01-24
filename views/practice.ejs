@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>
+            <%=title%>    
+            <!-- for printing a variable =  is required after mod -->
+        </title>
+    </head>
+    <body>
+        <h1>Playground</h1>
+
+         <ul>
+          <% for(let i =0;i<=5;i++) { %>
+
+             <li>
+                 <%= i %>
+             </li>
+             <% } %>
+
+        </ul>
+        <ul>
+            <% if(true){ %>
+            <h1>its true</h1>
+
+            <% }else { %>
+
+                <h1>its not true</h1>
+             <% } %>   
+
+        </ul>
+
+
+
+    </body>
+</html>
